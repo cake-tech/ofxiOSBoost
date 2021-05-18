@@ -29,8 +29,8 @@ STDLIB=libc++   # libstdc++
 COMPILER=clang++
 PARALLEL_MAKE=`sysctl -n hw.ncpu` # how many threads to make boost with
 
-BOOST_V1=1.60.0
-BOOST_V2=1_60_0
+BOOST_V1=1.76.0
+BOOST_V2=1_76_0
 
 #BITCODE="-fembed-bitcode"  # Uncomment this line for Bitcode generation
 
@@ -444,7 +444,6 @@ buildIncludes
 
 restoreBoost
 
-postcleanEverything
 
 echo "Completed successfully"
 
